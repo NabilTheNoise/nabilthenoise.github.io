@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nabil | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Matrix Rain Background -->
+    <canvas id="matrix-canvas"></canvas>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav-brand">
+                    <i class="fas fa-terminal"></i>
+                    <span class="glitch-text">NABIL.EXE</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#about" class="nav-link">[ABOUT]</a>
+                    <a href="#experience" class="nav-link">[EXPERIENCE]</a>
+                    <a href="#skills" class="nav-link">[SKILLS]</a>
+                    <a href="#contact" class="nav-link">[CONTACT]</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-container">
+                    <div class="profile-image">
+                        <img src="photo.jpg" alt="Nabil The Noise" id="profile-img">
+                        <div class="profile-border"></div>
+                    </div>
+                </div>
+                
+                <div class="hero-text">
+                    <div class="status-line">INITIALIZING...</div>
+                    <h1 class="hero-title glitch-text">&gt; NABIL_THE_NOISE.EXE</h1>
+                    <div class="status-line">STATUS: ONLINE</div>
+                </div>
+
+                <div class="terminal-box">
+                    <div class="terminal-header">$ cat profile.txt</div>
+                    <div class="terminal-content">
+                        <p>Senior Backend Developer & DevOps Engineer</p>
+                        <p>Specializing in: Scalable Systems & Cloud Architecture</p>
+                        <p>Current Mission: Building high-performance backend solutions</p>
+                        <p>Location: Iran | Email: nabilthenoise@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('contact')">
+                        <i class="fas fa-envelope"></i>
+                        [ESTABLISH_CONNECTION]
+                    </button>
+                    <button class="btn btn-secondary" onclick="window.open('https://www.linkedin.com/in/nabilthenoise/', '_blank')">
+                        <i class="fas fa-external-link-alt"></i>
+                        [VIEW_LINKEDIN]
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">&gt; ABOUT_ME.decrypt()</h2>
+            
+            <div class="about-grid">
+                <div class="about-text">
+                    <div class="terminal-box">
+                        <div class="terminal-header">$ whoami</div>
+                        <div class="terminal-content">
+                            <p>Results-driven Senior Backend Developer with a proven track record of designing, developing, and maintaining scalable, high-performance web applications. Proficient in Java, Python, Kotlin, TypeScript, Django, Spring Framework, and cloud technologies.</p>
+                        </div>
+                    </div>
+
+                    <div class="terminal-box">
+                        <div class="terminal-header">$ ls -la skills/</div>
+                        <div class="terminal-content">
+                            <p>Skilled in leveraging DevOps practices and infrastructure tools to streamline development and deployment processes. Passionate about delivering innovative solutions, collaborating effectively within cross-functional teams, and exploring emerging technologies such as cybersecurity and IoT.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-cards">
+                    <div class="info-card">
+                        <div class="card-header">
+                            <i class="fas fa-briefcase"></i>
+                            <h3>[EXPERIENCE_LOG]</h3>
+                        </div>
+                        <div class="card-content">
+                            <p>Runtime: 8+ years in backend development</p>
+                            <p>Specialization: Backend & DevOps</p>
+                            <p>Status: Currently optimizing systems at Bazaar</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-header">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h3>[EDUCATION_DATA]</h3>
+                        </div>
+                        <div class="card-content">
+                            <p>Degree: Bachelor of Engineering - Computer Engineering</p>
+                            <p>Institution: Online Institute for Higher Education</p>
+                            <p>Additional: Computer Science - University of Kashan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">&gt; WORK_HISTORY.log</h2>
+            
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3>Bazaar | Senior Backend Developer & DevOps</h3>
+                        <span class="experience-date">October 2024 - Present</span>
+                        <span class="status-badge">ACTIVE</span>
+                    </div>
+                    <div class="terminal-box">
+                        <div class="terminal-header">$ cat current_role.txt</div>
+                        <div class="terminal-content">
+                            <ul>
+                                <li>Designed and managed scalable backend systems using Supabase and PostgreSQL</li>
+                                <li>Deployed and maintained Kubernetes clusters on DigitalOcean</li>
+                                <li>Customized and deployed Activepieces with custom pipeline workflows</li>
+                                <li>Set up and self-hosted n8n for workflow automation</li>
+                                <li>Configured Coolify for streamlined application deployment</li>
+                                <li>Implemented CI/CD pipelines for microservices deployment</li>
+                                <li>Designed and managed search engine using Typesense</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3>LuminaTech | Senior Backend Developer</h3>
+                        <span class="experience-date">March 2021 - October 2024</span>
+                    </div>
+                    <div class="terminal-box">
+                        <div class="terminal-header">$ cat previous_role.txt</div>
+                        <div class="terminal-content">
+                            <ul>
+                                <li><strong>Product Development:</strong> Designed insight service for user data analysis and advertisement performance optimization</li>
+                                <li><strong>Technical Leadership:</strong> Trained new team members and provided on-call support</li>
+                                <li><strong>Infrastructure:</strong> Managed Kubernetes, RabbitMQ, Elastic, PostgreSQL</li>
+                                <li><strong>Security:</strong> Configured Spring Boot security and implemented secure by design practices</li>
+                                <li><strong>Integration:</strong> Developed payment systems and utilized gRPC for inter-service communication</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3>Freelance | Web Developer</h3>
+                        <span class="experience-date">January 2018 - September 2021</span>
+                    </div>
+                    <div class="terminal-box">
+                        <div class="terminal-header">$ cat freelance_work.txt</div>
+                        <div class="terminal-content">
+                            <ul>
+                                <li>Configured web servers using Digital Ocean and Cloudflare</li>
+                                <li>Developed complete backend servers using Django</li>
+                                <li>Modified client-side components using Dart, React, React Native, HTML, and CSS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">&gt; SKILLS_MATRIX.display()</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">[BACKEND_DEVELOPMENT]</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="100"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Django</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="100"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Node.js + Express.js</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="100"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Spring Framework</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="100"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Java</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="100"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Kotlin</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="100"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JS & TS</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="100"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">[CLOUD_PLATFORMS]</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span>DigitalOcean</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="100"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Coolify</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="100"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Cloudflare</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="100"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">[DATABASES]</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span>PostgreSQL</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="100"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>MongoDB</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="100"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Elastic</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="100"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Typesense</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="100"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">[DEVOPS]</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span>Linux</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="100"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Nginx</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="100"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>CI/CD</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="100"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Kubernetes</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="100"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Docker</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="100"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Helm</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="100"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">&gt; INITIATE_COLLABORATION.exe</h2>
+            
+            <div class="contact-content">
+                <div class="terminal-box large">
+                    <div class="terminal-header">$ echo "collaboration_request"</div>
+                    <div class="terminal-content">
+                        <p>Ready to architect scalable backend solutions and implement cutting-edge DevOps practices. Let's connect our systems and build something extraordinary in the digital realm.</p>
+                    </div>
+                </div>
+
+                <div class="contact-buttons">
+                    <button class="btn btn-primary" onclick="window.location.href='mailto:nabilthenoise@gmail.com'">
+                        <i class="fas fa-envelope"></i>
+                        [SEND_MESSAGE]
+                    </button>
+                    <button class="btn btn-secondary" onclick="window.open('https://www.linkedin.com/in/nabilthenoise/', '_blank')">
+                        <i class="fab fa-linkedin"></i>
+                        [LINKEDIN_CONNECT]
+                    </button>
+                </div>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Iran</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+989378895128</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>nabilthenoise@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-birthday-cake"></i>
+                        <span>19 December 1997</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 NABIL_THE_NOISE.EXE • All rights reserved • <span class="status">System Status: OPERATIONAL</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
