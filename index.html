@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nabil | Portfolio</title>
+    <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="90" font-size="90" fill="%2300FF00">&#62;_</text></svg>' />
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
@@ -35,13 +36,13 @@
             <div class="hero-content">
                 <div class="profile-container">
                     <div class="profile-image">
-                        <img src="photo.jpg" alt="Nabil The Noise" id="profile-img">
+                        <img src="public/photo.png" alt="Nabil The Noise" id="profile-img">
                         <div class="profile-border"></div>
                     </div>
                 </div>
                 
                 <div class="hero-text">
-                    <div class="status-line">INITIALIZING...</div>
+                    <div class="status-line fa-fade" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;">INITIALIZING...</div>
                     <h1 class="hero-title glitch-text">&gt; NABIL_THE_NOISE.EXE</h1>
                     <div class="status-line">STATUS: ONLINE</div>
                 </div>
@@ -49,10 +50,24 @@
                 <div class="terminal-box">
                     <div class="terminal-header">$ cat profile.txt</div>
                     <div class="terminal-content">
-                        <p>Senior Backend Developer & DevOps Engineer</p>
-                        <p>Specializing in: Scalable Systems & Cloud Architecture</p>
-                        <p>Current Mission: Building high-performance backend solutions</p>
-                        <p>Location: Iran | Email: nabilthenoise@gmail.com</p>
+                        <div>
+                            <i class="fas fa-barcode"></i>
+                            <span>Senior Backend Developer & DevOps Engineer</span>
+                        </div>
+                        
+                        <div>
+                            <i class="fas fa-certificate"></i>
+                            <span>Specializing in: Scalable Systems & Cloud Architecture</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-user-secret"></i>
+                            <span>Current Mission: Building high-performance solutions</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-birthday-cake"></i>
+                            <span>19 December 1997</span>
+                        </div>
+                        
                     </div>
                 </div>
 
@@ -323,24 +338,24 @@
                         <i class="fab fa-linkedin"></i>
                         [LINKEDIN_CONNECT]
                     </button>
+                    <button class="btn btn-secondary" onclick="window.open('https://nabilthenoise.ir/resume/', '_blank')">
+                        <i class="fas fa-paperclip"></i>
+                        [RESUME]
+                    </button>
                 </div>
 
                 <div class="contact-info">
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
-                        <span>Iran</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <span>+989378895128</span>
+                        <span>Tehran, Iran</span>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
                         <span>nabilthenoise@gmail.com</span>
                     </div>
-                    <div class="contact-item">
-                        <i class="fas fa-birthday-cake"></i>
-                        <span>19 December 1997</span>
+                     <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+989378895128</span>
                     </div>
                 </div>
             </div>
@@ -350,7 +365,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 NABIL_THE_NOISE.EXE • All rights reserved • <span class="status">System Status: OPERATIONAL</span></p>
+            <p>&copy; 2025 NABIL_THE_NOISE.EXE • All rights reserved • <span class="status">System Status: OPERATIONAL</span></p>
         </div>
     </footer>
 
